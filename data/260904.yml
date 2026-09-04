@@ -4,10 +4,10 @@ about:
     The Julia Programming Language
   license: MIT
   homepage: https://julialang.org/
-  head: 6e37664
+  head: d82b94a
   archived: false
   latestVersion: v1.13.0-rc4
-  collectedAt: 2026-09-04T19:33:14Z
+  collectedAt: 2026-09-04T20:58:31Z
 timeline:
   created: 2011-04-21
   lastCommit: 2026-09-04
@@ -18,12 +18,12 @@ popularity:
   fork: 5985
   release: 204
   contributor: 1615
-  pullRequest: 35122
+  pullRequest: 35124
   issue: 26169
 language:
-  Julia: 17861631
+  Julia: 17866557
   C: 4403546
-  C++: 2399272
+  C++: 2401976
   Tree-sitter Query: 427611
   Makefile: 280860
   LLVM: 249140
@@ -39,64 +39,212 @@ language:
   Rich Text Format: 2851
   DTrace: 1487
   GDB: 76
-totalBytes: 26036016
+totalBytes: 26043646
 recent:
   last30d:
     since: 2026-08-05
     release: 5
     mergedPR: 184
-    openPR: 100
+    openPR: 102
     closedIssue: 23
     openIssue: 45
-    commit: 303
+    commit: 306
   last60d:
     since: 2026-07-06
     release: 5
-    mergedPR: 393
-    openPR: 164
+    mergedPR: 394
+    openPR: 165
     closedIssue: 49
     openIssue: 79
-    commit: 796
+    commit: 802
   last90d:
     since: 2026-06-06
     release: 5
-    mergedPR: 524
-    openPR: 203
+    mergedPR: 525
+    openPR: 204
     closedIssue: 77
     openIssue: 108
-    commit: 1074
+    commit: 1080
   last180d:
     since: 2026-03-08
     release: 9
-    mergedPR: 956
-    openPR: 297
+    mergedPR: 957
+    openPR: 298
     closedIssue: 180
     openIssue: 151
-    commit: 1700
+    commit: 1706
   last360d:
     since: 2025-09-09
     release: 22
-    mergedPR: 1881
-    openPR: 440
+    mergedPR: 1882
+    openPR: 441
     closedIssue: 474
     openIssue: 323
-    commit: 2931
+    commit: 2937
   last720d:
     since: 2024-09-14
     release: 41
-    mergedPR: 3740
-    openPR: 585
+    mergedPR: 3741
+    openPR: 586
     closedIssue: 1350
     openIssue: 758
-    commit: 4369
+    commit: 4372
 total:
   release: 204
-  mergedPR: 27914
-  openPR: 1010
+  mergedPR: 27915
+  openPR: 1011
   closedIssue: 22561
   openIssue: 3608
-  commit: 62856
+  commit: 62859
 ---
+path: /home/runner/.x-repo/github.com/JuliaLang/julia
+collectedAt: 2026-09-04T20:58:55Z
+loc:
+  Julia:
+    code: 408980
+    comments: 43804
+    blanks: 45073
+    files: 940
+  C:
+    code: 80909
+    comments: 10786
+    blanks: 7484
+    files: 118
+  Cpp:
+    code: 42409
+    comments: 5547
+    blanks: 3463
+    files: 51
+  CHeader:
+    code: 18616
+    comments: 4289
+    blanks: 2696
+    files: 90
+  Toml:
+    code: 7399
+    comments: 48
+    blanks: 880
+    files: 160
+  Makefile:
+    code: 6370
+    comments: 791
+    blanks: 1295
+    files: 64
+  Json:
+    code: 5971
+    comments: 0
+    blanks: 0
+    files: 5
+  Scheme:
+    code: 5133
+    comments: 5017
+    blanks: 486
+    files: 11
+  Rust:
+    code: 3203
+    comments: 219
+    blanks: 482
+    files: 14
+  LLVM:
+    code: 3130
+    comments: 1828
+    blanks: 699
+    files: 35
+  Bitbake:
+    code: 2809
+    comments: 360
+    blanks: 287
+    files: 8
+  Lisp:
+    code: 1935
+    comments: 101
+    blanks: 292
+    files: 6
+  Sh:
+    code: 998
+    comments: 209
+    blanks: 211
+    files: 20
+  ObjectiveC:
+    code: 589
+    comments: 43
+    blanks: 102
+    files: 5
+  Tex:
+    code: 515
+    comments: 88
+    blanks: 32
+    files: 5
+  AssemblyGAS:
+    code: 358
+    comments: 87
+    blanks: 48
+    files: 8
+  Svg:
+    code: 273
+    comments: 35
+    blanks: 0
+    files: 6
+  Python:
+    code: 157
+    comments: 31
+    blanks: 25
+    files: 4
+  Yaml:
+    code: 101
+    comments: 0
+    blanks: 0
+    files: 1
+  Autoconf:
+    code: 76
+    comments: 0
+    blanks: 3
+    files: 3
+  Xml:
+    code: 70
+    comments: 6
+    blanks: 0
+    files: 2
+  CppHeader:
+    code: 31
+    comments: 21
+    blanks: 10
+    files: 1
+  D:
+    code: 30
+    comments: 1
+    blanks: 3
+    files: 1
+  Css:
+    code: 12
+    comments: 0
+    blanks: 3
+    files: 1
+  ForgeConfig:
+    code: 5
+    comments: 0
+    blanks: 0
+    files: 1
+  GDB:
+    code: 3
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 41336
+    blanks: 12533
+    files: 182
+  Text:
+    code: 0
+    comments: 2
+    blanks: 0
+    files: 4
+total:
+  code: 593051
+  comments: 114997
+  blanks: 76444
+  files: 1747
 ---
 date: "2026-08-24"
 repo:
