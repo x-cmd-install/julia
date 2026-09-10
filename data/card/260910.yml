@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.13.0"
   latestRelease: "v1.13.0"
   latestPrerelease: "v1.13.0-rc4"
-  collectedAt: 2026-09-10T20:18:24Z
+  collectedAt: 2026-09-10T23:30:03Z
 timeline:
   created: 2011-04-21
   lastCommit: 2026-09-10
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-09-10
   lastPrerelease: 2026-09-03
 popularity:
-  star: 49087
+  star: 49088
   watcher: 920
   fork: 5974
   release: 205
   contributor: 1618
-  pullRequest: 35182
+  pullRequest: 35185
   issue: 26185
 language:
   Julia: 17899561
@@ -47,7 +47,7 @@ recent:
     since: 2026-08-11
     release: 6
     mergedPR: 198
-    openPR: 112
+    openPR: 114
     closedIssue: 23
     openIssue: 56
     commit: 288
@@ -55,7 +55,7 @@ recent:
     since: 2026-07-12
     release: 6
     mergedPR: 396
-    openPR: 161
+    openPR: 163
     closedIssue: 52
     openIssue: 85
     commit: 781
@@ -63,7 +63,7 @@ recent:
     since: 2026-06-12
     release: 6
     mergedPR: 536
-    openPR: 210
+    openPR: 212
     closedIssue: 77
     openIssue: 109
     commit: 1057
@@ -71,7 +71,7 @@ recent:
     since: 2026-03-14
     release: 9
     mergedPR: 967
-    openPR: 308
+    openPR: 310
     closedIssue: 175
     openIssue: 156
     commit: 1716
@@ -79,7 +79,7 @@ recent:
     since: 2025-09-15
     release: 23
     mergedPR: 1904
-    openPR: 450
+    openPR: 452
     closedIssue: 472
     openIssue: 330
     commit: 2923
@@ -87,20 +87,20 @@ recent:
     since: 2024-09-20
     release: 42
     mergedPR: 3762
-    openPR: 596
+    openPR: 598
     closedIssue: 1341
     openIssue: 763
     commit: 4389
 total:
   release: 205
   mergedPR: 27959
-  openPR: 1023
+  openPR: 1025
   closedIssue: 22568
   openIssue: 3617
   commit: 62899
 ---
 path: /home/runner/.x-repo/github.com/JuliaLang/julia
-collectedAt: 2026-09-10T20:19:22Z
+collectedAt: 2026-09-10T23:30:59Z
 loc:
   Julia:
     code: 409445
