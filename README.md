@@ -20,30 +20,38 @@ x install julia
 
 ## Release
 
-- **Latest**: `v1.13.0-rc4` (2026-08-16)
-- **Last commit**: 2026-09-09
+- **Latest**: `v1.13.0` (2026-09-10)
+- **Last commit**: 2026-09-10
 - **Assets in release**: 4
-- **Published**: 2026-08-16T13:47:00Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [julia-1.13.0-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0-full.tar.gz) | 573.0 MiB | `native/unknown` |
+| [julia-1.13.0-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0-full.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.0.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0.tar.gz) | 15.0 MiB | `native/unknown` |
+| [julia-1.13.0.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0.tar.gz.asc) | 833 B | `other` |
 
 ## Popularity
 
-- **Stars**: 49,084 · **Forks**: 5,975 · **Open issues**: 26,178 · **Contributors**: 1,617
+- **Stars**: 49,085 · **Forks**: 5,974 · **Open issues**: 26,181 · **Contributors**: 1,617
 
 ## Totals (cumulative)
 
-- **Releases**: 204 · **Merged PRs**: 27955 · **Open PRs**: 1015 · **Closed issues**: 22566 · **Open issues**: 3612 · **Commits**: 62893
+- **Releases**: 205 · **Merged PRs**: 27956 · **Open PRs**: 1026 · **Closed issues**: 22567 · **Open issues**: 3614 · **Commits**: 62894
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 5 | 194 | 104 | 21 | 51 | 282 |
-| 90d | 2026-06-12 | 5 | 532 | 202 | 75 | 104 | 1051 |
-| 360d | 2025-09-15 | 22 | 1900 | 442 | 470 | 325 | 2917 |
+| 30d | 2026-08-11 | 6 | 195 | 115 | 22 | 53 | 283 |
+| 90d | 2026-06-12 | 6 | 533 | 213 | 76 | 106 | 1052 |
+| 360d | 2025-09-15 | 23 | 1901 | 453 | 471 | 327 | 2918 |
 
 ## Code size
 
-Total: **590,899** lines of code across **1359** files in the top 5 languages.
+Total: **590,906** lines of code across **1359** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -68,8 +76,8 @@ Lowest-scoring checks:
 Install metadata for julia lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `julia` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/julia.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/julia.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T02:38:14Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:53:29Z._

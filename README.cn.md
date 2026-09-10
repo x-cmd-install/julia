@@ -4,7 +4,7 @@
 
 The Julia Programming Language
 
-![julia](https://repo.x-cmd.io/julia.svg)
+![julia](https://repo.x-cmd.io/julia.svg?lang=zh)
 
 ## 安装
 
@@ -20,30 +20,38 @@ x install julia
 
 ## 发布
 
-- **最新版本**: `v1.13.0-rc4` (2026-08-16)
-- **最近提交**: 2026-09-09
+- **最新版本**: `v1.13.0` (2026-09-10)
+- **最近提交**: 2026-09-10
 - **Release 含资产**: 4 个
-- **发布时间**: 2026-08-16T13:47:00Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [julia-1.13.0-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0-full.tar.gz) | 573.0 MiB | `native/unknown` |
+| [julia-1.13.0-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0-full.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.0.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0.tar.gz) | 15.0 MiB | `native/unknown` |
+| [julia-1.13.0.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0.tar.gz.asc) | 833 B | `other` |
 
 ## 流行度
 
-- **Star**: 49,084 · **Fork**: 5,975 · **开放 issue**: 26,178 · **贡献者**: 1,617
+- **Star**: 49,085 · **Fork**: 5,974 · **开放 issue**: 26,181 · **贡献者**: 1,617
 
 ## 累计统计
 
-- **发布数**: 204 · **已合并 PR**: 27955 · **开放 PR**: 1015 · **已关闭 issue**: 22566 · **开放 issue**: 3612 · **提交数**: 62893
+- **发布数**: 205 · **已合并 PR**: 27956 · **开放 PR**: 1026 · **已关闭 issue**: 22567 · **开放 issue**: 3614 · **提交数**: 62894
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 5 | 194 | 104 | 21 | 51 | 282 |
-| 90d | 2026-06-12 | 5 | 532 | 202 | 75 | 104 | 1051 |
-| 360d | 2025-09-15 | 22 | 1900 | 442 | 470 | 325 | 2917 |
+| 30d | 2026-08-11 | 6 | 195 | 115 | 22 | 53 | 283 |
+| 90d | 2026-06-12 | 6 | 533 | 213 | 76 | 106 | 1052 |
+| 360d | 2025-09-15 | 23 | 1901 | 453 | 471 | 327 | 2918 |
 
 ## 代码规模
 
-合计: **590,899** 行代码（覆盖前 5 种语言、共 **1359** 个文件）。
+合计: **590,906** 行代码（覆盖前 5 种语言、共 **1359** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
@@ -72,4 +80,4 @@ julia 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T02:38:15Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:53:30Z._
