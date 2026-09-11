@@ -1,20 +1,139 @@
-- repo: nix_stable_24_05
-  srcname: julia_19
-  visiblename: julia
-  version: 1.9.4
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.7.1
   origversion: null
   status: legacy
-  summary: High-level performance-oriented dynamical language for technical computing
-  maintainers:
-    - nickcao@nichi.co
-    - josh@jniemela.dk
-    - tom@codedown.io
   licenses:
     - MIT
-- repo: nix_stable_24_11
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.7.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
   srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.7.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.7.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.7.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.7.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1.8"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1.8"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.8.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.8.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.8.2
+  origversion: null
+  status: outdated
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.8.2
+  origversion: null
+  status: outdated
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: nix_unstable
+  srcname: julia_112
   visiblename: julia
-  version: 1.11.3
+  version: 1.12.7
   origversion: null
   status: outdated
   summary: High-level performance-oriented dynamical language for technical computing
@@ -22,8 +141,238 @@
     - nickcao@nichi.co
     - josh@jniemela.dk
     - tom@codedown.io
+    - taranarmo@gmail.com
   licenses:
     - MIT
+- repo: nix_unstable
+  srcname: julia_112-bin
+  visiblename: julia-bin
+  version: 1.12.7
+  origversion: null
+  status: outdated
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1.7"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: nix_unstable
+  srcname: julia-lts
+  visiblename: julia-bin
+  version: 1.10.12
+  origversion: null
+  status: legacy
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_unstable
+  srcname: julia-lts-bin
+  visiblename: julia-bin
+  version: 1.10.12
+  origversion: null
+  status: legacy
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_unstable
+  srcname: julia_110
+  visiblename: julia
+  version: 1.10.12
+  origversion: null
+  status: legacy
+  summary: High-level performance-oriented dynamical language for technical computing
+  maintainers:
+    - nickcao@nichi.co
+    - josh@jniemela.dk
+    - tom@codedown.io
+    - taranarmo@gmail.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: julia_110-bin
+  visiblename: julia-bin
+  version: 1.10.12
+  origversion: null
+  status: legacy
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_unstable
+  srcname: julia_111
+  visiblename: julia
+  version: 1.11.9
+  origversion: null
+  status: legacy
+  summary: High-level performance-oriented dynamical language for technical computing
+  maintainers:
+    - nickcao@nichi.co
+    - josh@jniemela.dk
+    - tom@codedown.io
+    - taranarmo@gmail.com
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: julia_111-bin
+  visiblename: julia-bin
+  version: 1.11.9
+  origversion: null
+  status: legacy
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: julia
+  binnames:
+    - julia
+    - lib64julia1.12
+    - lib64julia-devel
+  visiblename: julia
+  version: 1.12.7
+  origversion: 1.12.7-2
+  status: outdated
+  summary: High-level, high-performance dynamic language for technical computing
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - MIT and GPLv2+ and LGPLv2+
+  categories:
+    - Development/Other
+- repo: opensuse_science_tumbleweed
+  srcname: julia
+  binnames:
+    - julia
+    - julia-devel
+    - libjulia1_10
+  visiblename: julia
+  version: 1.10.5
+  origversion: 1.10.5-209.10
+  status: outdated
+  summary: High-level, high-performance dynamic programming language
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-or-later AND MIT AND Zlib
+  categories:
+    - Development/Languages/Other
+- repo: opensuse_science_tumbleweed
+  srcname: julia-compat
+  binnames:
+    - julia-compat
+    - julia-compat-devel
+    - libjulia-compat1_10
+  visiblename: julia-compat
+  version: 1.10.5
+  origversion: 1.10.5-209.10
+  status: outdated
+  summary: High-level, high-performance dynamic programming language (without CPU optim.)
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-or-later AND MIT AND Zlib
+  categories:
+    - Development/Languages/Other
+- repo: parabola
+  subrepo: extra
+  srcname: julia
+  binname: julia
+  visiblename: julia
+  version: 1.12.7
+  origversion: 2:1.12.7-1
+  status: outdated
+  summary: High-level, high-performance, dynamic programming language
+  licenses:
+    - MIT
+- repo: scoop
+  subrepo: main
+  binname: julia
+  visiblename: julia
+  version: 1.13.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: development/julia
+  visiblename: development/julia
+  version: 1.10.11
+  origversion: null
+  status: outdated
+  maintainers:
+    - dev@osh.id.au
+  categories:
+    - development
+- repo: spack
+  srcname: julia
+  visiblename: julia
+  version: master
+  origversion: null
+  status: rolling
+  maintainers:
+    - giordano@spack
+    - haampie@spack
+    - vchuravy@spack
+- repo: spack
+  srcname: julia
+  visiblename: julia
+  version: 1.12.7
+  origversion: null
+  status: outdated
+  maintainers:
+    - giordano@spack
+    - haampie@spack
+    - vchuravy@spack
+- repo: t2
+  srcname: julia
+  visiblename: julia
+  version: 1.12.7
+  origversion: null
+  status: outdated
+  summary: The Julia Language
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - GPL
+  categories:
+    - extra/development
+- repo: wikidata
+  srcname: Q28974961
+  visiblename: Julia
+  version: 1.13.0
+  origversion: null
+  status: newest
+  summary: free software compiler and tools for the Julia programming language
+  licenses:
+    - Expat license
 - repo: arch
   subrepo: extra
   srcname: julia
@@ -253,20 +602,6 @@
     - MIT and Apache-2.0 WITH LLVM-exception
   categories:
     - Unspecified
-- repo: nix_stable_24_05
-  srcname: julia_19-bin
-  visiblename: julia-bin
-  version: 1.9.4
-  origversion: null
-  status: legacy
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
 - repo: freebsd
   srcname: lang/julia
   binname: julia
@@ -335,6 +670,20 @@
     - MIT
   categories:
     - dev-lang
+- repo: nix_stable_24_11
+  srcname: julia_19-bin
+  visiblename: julia-bin
+  version: 1.9.4
+  origversion: null
+  status: legacy
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
 - repo: gentoo
   srcname: dev-lang/julia-bin
   visiblename: dev-lang/julia-bin
@@ -426,6 +775,19 @@
     - MIT
   categories:
     - dev-lang
+- repo: nix_stable_25_05
+  srcname: julia
+  visiblename: julia
+  version: 1.12.1
+  origversion: null
+  status: outdated
+  summary: High-level performance-oriented dynamical language for technical computing
+  maintainers:
+    - nickcao@nichi.co
+    - josh@jniemela.dk
+    - tom@codedown.io
+  licenses:
+    - MIT
 - repo: liguros_stable
   srcname: dev-lang/julia-bin
   visiblename: dev-lang/julia-bin
@@ -461,20 +823,6 @@
   summary: High-performance programming language for technical computing
   maintainers:
     - core@liguros.net
-  licenses:
-    - MIT
-  categories:
-    - dev-lang
-- repo: liguros_develop
-  srcname: dev-lang/julia-bin
-  visiblename: dev-lang/julia-bin
-  version: 1.8.5
-  origversion: 1.8.5-r1
-  status: legacy
-  summary: High-performance programming language for technical computing
-  maintainers:
-    - tamiko@gentoo.org
-    - sci@gentoo.org
   licenses:
     - MIT
   categories:
@@ -549,19 +897,6 @@
     - MIT
   categories:
     - dev-lang
-- repo: nix_stable_25_05
-  srcname: julia
-  visiblename: julia
-  version: 1.12.1
-  origversion: null
-  status: outdated
-  summary: High-level performance-oriented dynamical language for technical computing
-  maintainers:
-    - nickcao@nichi.co
-    - josh@jniemela.dk
-    - tom@codedown.io
-  licenses:
-    - MIT
 - repo: liguros_develop
   srcname: dev-lang/julia-bin
   visiblename: dev-lang/julia-bin
@@ -595,6 +930,20 @@
   visiblename: dev-lang/julia-bin
   version: 1.10.0
   origversion: 1.10.0-r1
+  status: legacy
+  summary: High-performance programming language for technical computing
+  maintainers:
+    - tamiko@gentoo.org
+    - sci@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - dev-lang
+- repo: liguros_develop
+  srcname: dev-lang/julia-bin
+  visiblename: dev-lang/julia-bin
+  version: 1.8.5
+  origversion: 1.8.5-r1
   status: legacy
   summary: High-performance programming language for technical computing
   maintainers:
@@ -650,9 +999,9 @@
   srcname: lang/julia
   binname: julia
   visiblename: julia
-  version: 1.12.7
+  version: 1.13.0
   origversion: null
-  status: outdated
+  status: newest
   summary: 'The Julia Language: A fresh approach to technical computing.'
   maintainers:
     - essandess@github
@@ -784,6 +1133,57 @@
     - tom@codedown.io
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_24_05
+  srcname: julia_19
+  visiblename: julia
+  version: 1.9.4
+  origversion: null
+  status: legacy
+  summary: High-level performance-oriented dynamical language for technical computing
+  maintainers:
+    - nickcao@nichi.co
+    - josh@jniemela.dk
+    - tom@codedown.io
+  licenses:
+    - MIT
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.6.4
+  origversion: null
+  status: outdated
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: nix_stable_24_05
+  srcname: julia_19-bin
+  visiblename: julia-bin
+  version: 1.9.4
+  origversion: null
+  status: legacy
+  summary: High-level, high-performance, dynamic language for technical computing
+  maintainers:
+    - 7c6f434c@mail.ru
+    - nickcao@nichi.co
+    - contact@weijia.wang
+    - tom@codedown.io
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: julia
+  visiblename: julia
+  version: 1.11.3
+  origversion: null
+  status: outdated
+  summary: High-level performance-oriented dynamical language for technical computing
+  maintainers:
+    - nickcao@nichi.co
+    - josh@jniemela.dk
+    - tom@codedown.io
+  licenses:
+    - MIT
 - repo: nix_stable_24_11
   srcname: julia-bin
   visiblename: julia-bin
@@ -838,20 +1238,6 @@
     - tom@codedown.io
   licenses:
     - MIT
-- repo: nix_stable_24_11
-  srcname: julia_19-bin
-  visiblename: julia-bin
-  version: 1.9.4
-  origversion: null
-  status: legacy
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
 - repo: nix_stable_25_05
   srcname: julia-bin
   visiblename: julia-bin
@@ -1045,6 +1431,28 @@
     - taranarmo@gmail.com
   licenses:
     - MIT
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.6.4
+  origversion: null
+  status: outdated
+  licenses:
+    - MIT
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1.7"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
 - repo: nix_stable_26_05
   srcname: julia-bin
   visiblename: julia-bin
@@ -1115,36 +1523,10 @@
     - tom@codedown.io
   licenses:
     - GPL-2.0-or-later
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.4.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
 - repo: nix_stable_26_05
   srcname: julia-lts
   visiblename: julia-bin
   version: 1.10.11
-  origversion: null
-  status: outdated
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_unstable
-  srcname: julia_112-bin
-  visiblename: julia-bin
-  version: 1.12.7
   origversion: null
   status: outdated
   summary: High-level, high-performance, dynamic language for technical computing
@@ -1281,405 +1663,11 @@
     - tom@codedown.io
   licenses:
     - GPL-2.0-or-later
-- repo: nix_unstable
-  srcname: julia_112
-  visiblename: julia
-  version: 1.12.7
-  origversion: null
-  status: outdated
-  summary: High-level performance-oriented dynamical language for technical computing
-  maintainers:
-    - nickcao@nichi.co
-    - josh@jniemela.dk
-    - tom@codedown.io
-    - taranarmo@gmail.com
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: julia-lts
-  visiblename: julia-bin
-  version: 1.10.12
-  origversion: null
-  status: legacy
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_unstable
-  srcname: julia-lts-bin
-  visiblename: julia-bin
-  version: 1.10.12
-  origversion: null
-  status: legacy
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_unstable
-  srcname: julia_110
-  visiblename: julia
-  version: 1.10.12
-  origversion: null
-  status: legacy
-  summary: High-level performance-oriented dynamical language for technical computing
-  maintainers:
-    - nickcao@nichi.co
-    - josh@jniemela.dk
-    - tom@codedown.io
-    - taranarmo@gmail.com
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: julia_110-bin
-  visiblename: julia-bin
-  version: 1.10.12
-  origversion: null
-  status: legacy
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
-- repo: nix_unstable
-  srcname: julia_111
-  visiblename: julia
-  version: 1.11.9
-  origversion: null
-  status: legacy
-  summary: High-level performance-oriented dynamical language for technical computing
-  maintainers:
-    - nickcao@nichi.co
-    - josh@jniemela.dk
-    - tom@codedown.io
-    - taranarmo@gmail.com
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: julia_111-bin
-  visiblename: julia-bin
-  version: 1.11.9
-  origversion: null
-  status: legacy
-  summary: High-level, high-performance, dynamic language for technical computing
-  maintainers:
-    - 7c6f434c@mail.ru
-    - nickcao@nichi.co
-    - contact@weijia.wang
-    - tom@codedown.io
-  licenses:
-    - GPL-2.0-or-later
-- repo: openmandriva_cooker
-  subrepo: main/release
-  srcname: julia
-  binnames:
-    - julia
-    - lib64julia1.12
-    - lib64julia-devel
-  visiblename: julia
-  version: 1.12.7
-  origversion: 1.12.7-2
-  status: outdated
-  summary: High-level, high-performance dynamic language for technical computing
-  maintainers:
-    - bero@lindev.ch
-  licenses:
-    - MIT and GPLv2+ and LGPLv2+
-  categories:
-    - Development/Other
-- repo: opensuse_science_tumbleweed
-  srcname: julia
-  binnames:
-    - julia
-    - julia-devel
-    - libjulia1_10
-  visiblename: julia
-  version: 1.10.5
-  origversion: 1.10.5-209.10
-  status: outdated
-  summary: High-level, high-performance dynamic programming language
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-or-later AND MIT AND Zlib
-  categories:
-    - Development/Languages/Other
-- repo: opensuse_science_tumbleweed
-  srcname: julia-compat
-  binnames:
-    - julia-compat
-    - julia-compat-devel
-    - libjulia-compat1_10
-  visiblename: julia-compat
-  version: 1.10.5
-  origversion: 1.10.5-209.10
-  status: outdated
-  summary: High-level, high-performance dynamic programming language (without CPU optim.)
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-or-later AND MIT AND Zlib
-  categories:
-    - Development/Languages/Other
-- repo: parabola
-  subrepo: extra
-  srcname: julia
-  binname: julia
-  visiblename: julia
-  version: 1.12.7
-  origversion: 2:1.12.7-1
-  status: outdated
-  summary: High-level, high-performance, dynamic programming language
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: julia
-  visiblename: julia
-  version: 1.13.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: development/julia
-  visiblename: development/julia
-  version: 1.10.11
-  origversion: null
-  status: outdated
-  maintainers:
-    - dev@osh.id.au
-  categories:
-    - development
-- repo: spack
-  srcname: julia
-  visiblename: julia
-  version: master
-  origversion: null
-  status: rolling
-  maintainers:
-    - giordano@spack
-    - haampie@spack
-    - vchuravy@spack
-- repo: spack
-  srcname: julia
-  visiblename: julia
-  version: 1.12.7
-  origversion: null
-  status: outdated
-  maintainers:
-    - giordano@spack
-    - haampie@spack
-    - vchuravy@spack
-- repo: t2
-  srcname: julia
-  visiblename: julia
-  version: 1.12.7
-  origversion: null
-  status: outdated
-  summary: The Julia Language
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - GPL
-  categories:
-    - extra/development
-- repo: wikidata
-  srcname: Q28974961
-  visiblename: Julia
-  version: 1.13.0
-  origversion: null
-  status: newest
-  summary: free software compiler and tools for the Julia programming language
-  licenses:
-    - Expat license
 - repo: npackd_stable
   srcname: julia
   binname: julia
   visiblename: Julia
-  version: 1.6.4
-  origversion: null
-  status: outdated
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.6.4
-  origversion: null
-  status: outdated
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.7"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.7.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.7.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.7.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.7.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.7.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.7.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.8"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.8"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.8.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.8.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.8.2
-  origversion: null
-  status: outdated
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.8.2
-  origversion: null
-  status: outdated
-  licenses:
-    - MIT
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.3"
+  version: 1.3.1
   origversion: null
   status: legacy
   licenses:
@@ -1691,19 +1679,7 @@
   srcname: julia64
   binname: julia64
   visiblename: Julia 64 bit
-  version: 0.6.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 0.6.4
+  version: 1.3.1
   origversion: null
   status: legacy
   licenses:
@@ -1715,7 +1691,7 @@
   srcname: julia
   binname: julia
   visiblename: Julia
-  version: "1"
+  version: "1.4"
   origversion: null
   status: legacy
   licenses:
@@ -1727,7 +1703,7 @@
   srcname: julia64
   binname: julia64
   visiblename: Julia 64 bit
-  version: "1"
+  version: "1.4"
   origversion: null
   status: legacy
   licenses:
@@ -1739,7 +1715,7 @@
   srcname: julia
   binname: julia
   visiblename: Julia
-  version: 1.0.1
+  version: 1.4.2
   origversion: null
   status: legacy
   licenses:
@@ -1775,6 +1751,30 @@
   srcname: julia64
   binname: julia64
   visiblename: Julia 64 bit
+  version: 1.6.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.6.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
   version: "1.5"
   origversion: null
   status: legacy
@@ -1784,346 +1784,10 @@
     - Development
   vulnerable: true
 - repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.5.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.5.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.5.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.5.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.5.4
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.5.4
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.6"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.6.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.6.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.6.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
   srcname: julia64
   binname: julia64
   visiblename: Julia 64 bit
   version: 1.6.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.6.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.6.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.0.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.0.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.0.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.0.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.0.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.1"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.1.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.1.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.3"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 1.3.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 1.3.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: "1.4"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.4"
   origversion: null
   status: legacy
   licenses:
@@ -2143,6 +1807,30 @@
   categories:
     - Development
   vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.5.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.5.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
 - repo: archpower_powerpc64le
   srcname: julia
   binname: julia-docs
@@ -2153,6 +1841,42 @@
   summary: Documentation and examples for Julia
   licenses:
     - MIT
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.6.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1.6"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.6.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
   vulnerable: true
 - repo: npackd_stable
   srcname: julia64
@@ -2229,6 +1953,30 @@
   categories:
     - misc
   vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.5.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.6.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
 - repo: haikuports_master
   srcname: dev-lang/julia
   visiblename: dev-lang/julia
@@ -2242,7 +1990,331 @@
   srcname: julia
   binname: julia
   visiblename: Julia
+  version: 1.1.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.1.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1.2"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1.2"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1.3"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
   version: 0.6.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 0.6.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 0.6.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 0.6.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 0.6.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 0.6.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 0.6.4
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 0.6.4
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.0.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.0.1
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.0.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.0.2
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.0.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.0.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: "1.1"
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.5.3
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: 1.5.4
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia64
+  binname: julia64
+  visiblename: Julia 64 bit
+  version: 1.5.4
+  origversion: null
+  status: legacy
+  licenses:
+    - MIT
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: julia
+  binname: julia
+  visiblename: Julia
+  version: "1.6"
   origversion: null
   status: legacy
   licenses:
@@ -2443,76 +2515,4 @@
     - peter@colberg.org
   categories:
     - universe/misc
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 0.6.1
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 0.6.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: 0.6.2
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 0.6.3
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia
-  binname: julia
-  visiblename: Julia
-  version: 0.6.4
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: julia64
-  binname: julia64
-  visiblename: Julia 64 bit
-  version: "1.2"
-  origversion: null
-  status: legacy
-  licenses:
-    - MIT
-  categories:
-    - Development
   vulnerable: true
