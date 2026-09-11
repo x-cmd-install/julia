@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 600785086,
       "digest": "sha256:6b7f8eecb208b2fffc95cec6713a06c94f51bcbc5616630c30b42bd9221cb26e",
-      "download_count": 62,
+      "download_count": 71,
       "created_at": "2026-09-10T09:11:27Z",
       "updated_at": "2026-09-10T09:11:52Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0-full.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:f92a9a8ec7a354026d8510fb99f49778bfee00d2b0b18f9bebcae92ccd834a68",
-      "download_count": 26,
+      "download_count": 29,
       "created_at": "2026-09-10T09:11:27Z",
       "updated_at": "2026-09-10T09:11:27Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0-full.tar.gz.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 15725292,
       "digest": "sha256:5558c3328cd15c4ef32d1009ccda9aa43401e0436adf1177d1a34ecb0eb5f926",
-      "download_count": 50,
+      "download_count": 55,
       "created_at": "2026-09-10T09:11:27Z",
       "updated_at": "2026-09-10T09:11:28Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:7d032b92e9d2137f6c291a5b7cdef0569c5df4287e4dccc017daa3a77aebcedb",
-      "download_count": 15,
+      "download_count": 17,
       "created_at": "2026-09-10T09:11:27Z",
       "updated_at": "2026-09-10T09:11:27Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.0/julia-1.13.0.tar.gz.asc"
@@ -186,8 +186,8 @@
   "body": "Julia version 1.13.0, the thirteenth minor release in the 1.x series of releases.\n\nRelease notes: https://github.com/JuliaLang/julia/tree/v1.13.0/NEWS.md",
   "reactions": {
     "url": "https://api.github.com/repos/JuliaLang/julia/releases/386139815/reactions",
-    "total_count": 51,
-    "+1": 15,
+    "total_count": 52,
+    "+1": 16,
     "-1": 0,
     "laugh": 0,
     "hooray": 16,
