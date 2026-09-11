@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 49,087 · **Forks**: 5,974 · **Open issues**: 26,185 · **Contributors**: 1,618
+- **Stars**: 49,088 · **Forks**: 5,974 · **Open issues**: 26,185 · **Contributors**: 1,618
 
 ## Totals (cumulative)
 
-- **Releases**: 205 · **Merged PRs**: 27959 · **Open PRs**: 1023 · **Closed issues**: 22568 · **Open issues**: 3617 · **Commits**: 62899
+- **Releases**: 205 · **Merged PRs**: 27959 · **Open PRs**: 1025 · **Closed issues**: 22568 · **Open issues**: 3617 · **Commits**: 62899
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 6 | 198 | 112 | 23 | 56 | 288 |
-| last60d | 2026-07-12 | 6 | 396 | 161 | 52 | 85 | 781 |
-| 90d | 2026-06-12 | 6 | 536 | 210 | 77 | 109 | 1057 |
-| last180d | 2026-03-14 | 9 | 967 | 308 | 175 | 156 | 1716 |
-| 360d | 2025-09-15 | 23 | 1904 | 450 | 472 | 330 | 2923 |
-| last720d | 2024-09-20 | 42 | 3762 | 596 | 1341 | 763 | 4389 |
+| 30d | 2026-08-12 | 6 | 194 | 113 | 23 | 54 | 288 |
+| last60d | 2026-07-13 | 6 | 387 | 163 | 52 | 83 | 781 |
+| 90d | 2026-06-13 | 6 | 534 | 212 | 76 | 108 | 1057 |
+| last180d | 2026-03-15 | 9 | 963 | 309 | 174 | 156 | 1716 |
+| 360d | 2025-09-16 | 22 | 1900 | 452 | 470 | 329 | 2923 |
+| last720d | 2024-09-21 | 42 | 3761 | 598 | 1340 | 759 | 4383 |
 
 ## Release assets
 
@@ -76,11 +76,11 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **190** distros on [repology.org](https://repology.org/project/julia). **2** are ✅ on the latest upstream release, **95** are ⚠️ on an older version.
+Reported by **190** distros on [repology.org](https://repology.org/project/julia). **3** are ✅ on the latest upstream release, **94** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `1.12.7` | ⚠️ outdated |
+| Arch | `1.13.0` | ✅ latest |
 | Homebrew | `1.12.7` | ⚠️ outdated |
 | Fedora rawhide | `1.12.1` | ⚠️ outdated |
 | Nix unstable | `1.12.7` | ⚠️ outdated |
@@ -94,4 +94,4 @@ Install metadata for julia lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:19:30Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T02:33:28Z._
