@@ -14,13 +14,13 @@ x install julia
 
 ## Code insight
 
-Total: **598,359** lines of code across **1366** files in the top 5 languages.
+Total: **598,448** lines of code across **1366** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Julia | 414,848 | 44,609 | 45,448 | 941 |
-| C | 81,509 | 10,937 | 7,542 | 119 |
-| Cpp | 43,074 | 5,755 | 3,500 | 51 |
+| Julia | 414,920 | 44,621 | 45,455 | 941 |
+| C | 81,528 | 10,939 | 7,543 | 119 |
+| Cpp | 43,057 | 5,755 | 3,499 | 51 |
 | CHeader | 18,797 | 4,386 | 2,733 | 90 |
 | Toml | 7,297 | 56 | 854 | 165 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.13.1` (2026-09-26)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-28
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 49,157 · **Forks**: 5,979 · **Open issues**: 26,245 · **Contributors**: 1,621
+- **Stars**: 49,159 · **Forks**: 5,979 · **Open issues**: 26,250 · **Contributors**: 1,621
 
 ## Totals (cumulative)
 
-- **Releases**: 206 · **Merged PRs**: 28126 · **Open PRs**: 1049 · **Closed issues**: 22607 · **Open issues**: 3638 · **Commits**: 63123
+- **Releases**: 206 · **Merged PRs**: 28141 · **Open PRs**: 1068 · **Closed issues**: 22611 · **Open issues**: 3639 · **Commits**: 63134
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 3 | 234 | 119 | 32 | 56 | 278 |
-| last60d | 2026-07-29 | 7 | 431 | 173 | 63 | 96 | 638 |
-| 90d | 2026-06-29 | 7 | 626 | 233 | 86 | 125 | 1114 |
-| last180d | 2026-03-31 | 9 | 1061 | 326 | 181 | 175 | 1837 |
-| 360d | 2025-10-02 | 22 | 1981 | 472 | 472 | 342 | 3016 |
-| last720d | 2024-10-07 | 42 | 3812 | 621 | 1335 | 756 | 4497 |
+| 30d | 2026-08-29 | 3 | 244 | 137 | 35 | 57 | 289 |
+| last60d | 2026-07-30 | 7 | 432 | 191 | 64 | 96 | 649 |
+| 90d | 2026-06-30 | 7 | 637 | 252 | 89 | 127 | 1125 |
+| last180d | 2026-04-01 | 9 | 1067 | 345 | 183 | 177 | 1848 |
+| 360d | 2025-10-03 | 22 | 1991 | 491 | 475 | 341 | 3027 |
+| last720d | 2024-10-08 | 42 | 3821 | 638 | 1326 | 757 | 4499 |
 
 ## Release assets
 
@@ -83,4 +83,4 @@ Install metadata for julia lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T03:07:44Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T03:04:53Z._
