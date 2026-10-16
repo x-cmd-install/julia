@@ -14,14 +14,14 @@ x install julia
 
 ## 代码洞察
 
-合计: **607,151** 行代码（覆盖前 5 种语言、共 **1372** 个文件）。
+合计: **607,843** 行代码（覆盖前 5 种语言、共 **1372** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Julia | 421,670 | 45,783 | 45,930 | 945 |
-| C | 82,480 | 11,313 | 7,623 | 120 |
-| Cpp | 43,433 | 5,818 | 3,517 | 51 |
-| CHeader | 18,850 | 4,424 | 2,735 | 90 |
+| Julia | 422,351 | 45,790 | 45,978 | 945 |
+| C | 82,485 | 11,313 | 7,623 | 120 |
+| Cpp | 43,438 | 5,820 | 3,519 | 51 |
+| CHeader | 18,851 | 4,424 | 2,735 | 90 |
 | Toml | 7,330 | 58 | 861 | 166 |
 
 ## OpenSSF Scorecard 评分
@@ -42,37 +42,37 @@ x install julia
 
 ## 发布
 
-- **最新版本**: `v1.13.1` (2026-09-26)
-- **最近提交**: 2026-10-15
+- **最新版本**: `v1.13.2` (2026-10-15)
+- **最近提交**: 2026-10-16
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 49,205 · **Fork**: 5,985 · **开放 issue**: 26,321 · **贡献者**: 1,622
+- **Star**: 49,207 · **Fork**: 5,984 · **开放 issue**: 26,327 · **贡献者**: 1,624
 
 ## 累计统计
 
-- **发布数**: 206 · **已合并 PR**: 28386 · **开放 PR**: 1045 · **已关闭 issue**: 23062 · **开放 issue**: 3259 · **提交数**: 63443
+- **发布数**: 207 · **已合并 PR**: 28405 · **开放 PR**: 1036 · **已关闭 issue**: 23091 · **开放 issue**: 3236 · **提交数**: 63484
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-15 | 1 | 322 | 131 | 42 | 68 | 415 |
-| last60d | 2026-08-16 | 4 | 545 | 193 | 85 | 111 | 725 |
-| 90d | 2026-07-17 | 7 | 774 | 237 | 121 | 138 | 1266 |
-| last180d | 2026-04-18 | 8 | 1229 | 328 | 213 | 200 | 2025 |
-| 360d | 2025-10-20 | 20 | 2143 | 471 | 492 | 338 | 3189 |
-| last720d | 2024-10-25 | 40 | 3919 | 621 | 1316 | 739 | 4637 |
+| 30d | 2026-09-16 | 2 | 322 | 119 | 39 | 69 | 481 |
+| last60d | 2026-08-17 | 4 | 551 | 183 | 85 | 114 | 791 |
+| 90d | 2026-07-18 | 8 | 792 | 227 | 123 | 141 | 1332 |
+| last180d | 2026-04-19 | 9 | 1246 | 319 | 217 | 202 | 2091 |
+| 360d | 2025-10-21 | 21 | 2156 | 461 | 494 | 339 | 3255 |
+| last720d | 2024-10-26 | 41 | 3934 | 612 | 1319 | 737 | 4664 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [julia-1.13.1-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.1/julia-1.13.1-full.tar.gz) | 573.1 MiB | `native/unknown` |
-| [julia-1.13.1-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.1/julia-1.13.1-full.tar.gz.asc) | 833 B | `other` |
-| [julia-1.13.1.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.1/julia-1.13.1.tar.gz) | 15.1 MiB | `native/unknown` |
-| [julia-1.13.1.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.1/julia-1.13.1.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.2-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2-full.tar.gz) | 573.9 MiB | `native/unknown` |
+| [julia-1.13.2-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2-full.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.2.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2.tar.gz) | 15.1 MiB | `native/unknown` |
+| [julia-1.13.2.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2.tar.gz.asc) | 833 B | `other` |
 
 ## 改进这些数据
 
@@ -83,4 +83,4 @@ julia 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261015.yml` · 2026-10-15T02:47:19Z._
+_数据快照: `data/card/261016.yml` · 2026-10-16T02:43:51Z._
