@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 601733470,
       "digest": "sha256:33703abf30a23f5dd27e4e1adb7fc66c7c03ae98961376e9c04661c84d389229",
-      "download_count": 153,
+      "download_count": 226,
       "created_at": "2026-10-15T11:54:55Z",
       "updated_at": "2026-10-15T11:55:56Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2-full.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:2782805003cc458edaae00252dbfad42df4ddeab4a5e84272cd51df0a534ec79",
-      "download_count": 34,
+      "download_count": 39,
       "created_at": "2026-10-15T11:54:55Z",
       "updated_at": "2026-10-15T11:54:55Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2-full.tar.gz.asc"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 15857675,
       "digest": "sha256:f17c845192b1f42fe0999711e7465c3b6091196ce4d3870bf578e5cdaf483452",
-      "download_count": 91,
+      "download_count": 103,
       "created_at": "2026-10-15T11:54:55Z",
       "updated_at": "2026-10-15T11:54:58Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:53af4c0c904e1ce4fc9ff011e212be4ccc7f12e6d0766e8dbc707fc26170e89e",
-      "download_count": 17,
+      "download_count": 23,
       "created_at": "2026-10-15T11:54:55Z",
       "updated_at": "2026-10-15T11:54:55Z",
       "browser_download_url": "https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2.tar.gz.asc"
