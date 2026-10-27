@@ -14,19 +14,19 @@ x install julia
 
 ## Code insight
 
-Total: **611,532** lines of code across **1374** files in the top 5 languages.
+Total: **612,502** lines of code across **1374** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Julia | 424,938 | 46,215 | 46,154 | 947 |
-| C | 83,132 | 11,488 | 7,679 | 120 |
-| Cpp | 43,309 | 5,868 | 3,527 | 51 |
-| CHeader | 18,729 | 4,448 | 2,724 | 90 |
+| Julia | 425,587 | 46,314 | 46,188 | 947 |
+| C | 83,285 | 11,524 | 7,695 | 120 |
+| Cpp | 43,419 | 5,878 | 3,534 | 51 |
+| CHeader | 18,772 | 4,466 | 2,727 | 90 |
 | Toml | 7,377 | 58 | 884 | 166 |
 
 ## OpenSSF Scorecard
 
-Overall score: **7.4 / 10**
+Overall score: **7.3 / 10**
 
 Lowest-scoring checks:
 
@@ -42,48 +42,48 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.14.0-alpha1` (2026-10-15)
-- **Last commit**: 2026-10-25
+- **Latest**: `v1.14.0-alpha2` (2026-10-26)
+- **Last commit**: 2026-10-27
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 49,207 · **Forks**: 5,942 · **Open issues**: 26,475 · **Contributors**: 1,625
+- **Stars**: 49,209 · **Forks**: 5,943 · **Open issues**: 26,491 · **Contributors**: 1,625
 
 ## Totals (cumulative)
 
-- **Releases**: 208 · **Merged PRs**: 28566 · **Open PRs**: 1069 · **Closed issues**: 23153 · **Open issues**: 3322 · **Commits**: 63658
+- **Releases**: 210 · **Merged PRs**: 28604 · **Open PRs**: 1062 · **Closed issues**: 23164 · **Open issues**: 3327 · **Commits**: 63696
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 3 | 374 | 159 | 49 | 180 | 431 |
-| last60d | 2026-08-27 | 5 | 659 | 212 | 104 | 217 | 846 |
-| 90d | 2026-07-28 | 9 | 871 | 257 | 142 | 248 | 1202 |
-| last180d | 2026-04-29 | 10 | 1350 | 350 | 239 | 314 | 2172 |
-| 360d | 2025-10-31 | 22 | 2273 | 492 | 512 | 443 | 3362 |
-| last720d | 2024-11-05 | 41 | 4027 | 643 | 1340 | 834 | 4790 |
+| 30d | 2026-09-27 | 4 | 384 | 149 | 59 | 181 | 473 |
+| last60d | 2026-08-28 | 7 | 691 | 208 | 113 | 221 | 888 |
+| 90d | 2026-07-29 | 11 | 895 | 251 | 152 | 253 | 1244 |
+| last180d | 2026-04-30 | 11 | 1385 | 347 | 248 | 319 | 2214 |
+| 360d | 2025-11-01 | 24 | 2306 | 486 | 523 | 447 | 3404 |
+| last720d | 2024-11-06 | 43 | 4060 | 634 | 1351 | 838 | 4820 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [julia-1.13.2-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2-full.tar.gz) | 573.9 MiB | `native/unknown` |
-| [julia-1.13.2-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2-full.tar.gz.asc) | 833 B | `other` |
-| [julia-1.13.2.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2.tar.gz) | 15.1 MiB | `native/unknown` |
-| [julia-1.13.2.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.2/julia-1.13.2.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.3-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3-full.tar.gz) | 574.0 MiB | `native/unknown` |
+| [julia-1.13.3-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3-full.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.3.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3.tar.gz) | 15.2 MiB | `native/unknown` |
+| [julia-1.13.3.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3.tar.gz.asc) | 833 B | `other` |
 
 ## Distribution status
 
-Reported by **191** distros on [repology.org](https://repology.org/project/julia). **17** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
+Reported by **191** distros on [repology.org](https://repology.org/project/julia). **4** are ✅ on the latest upstream release, **93** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Arch | `1.13.2` | ✅ latest |
-| Homebrew | `1.13.2` | ✅ latest |
+| Arch | `1.13.3` | ✅ latest |
+| Homebrew | `1.13.3` | ✅ latest |
 | Fedora rawhide | `1.12.1` | ⚠️ outdated |
-| Nix unstable | `1.13.2` | ✅ latest |
+| Nix unstable | `1.13.2` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -94,4 +94,4 @@ Install metadata for julia lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T02:45:00Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T03:19:16Z._
