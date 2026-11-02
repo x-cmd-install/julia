@@ -14,14 +14,14 @@ x install julia
 
 ## Code insight
 
-Total: **616,595** lines of code across **1386** files in the top 5 languages.
+Total: **617,190** lines of code across **1386** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Julia | 427,006 | 46,394 | 46,273 | 948 |
-| C | 84,744 | 11,752 | 7,852 | 127 |
+| Julia | 427,585 | 46,427 | 46,312 | 948 |
+| C | 84,756 | 11,758 | 7,854 | 127 |
 | Cpp | 43,424 | 5,878 | 3,534 | 51 |
-| CHeader | 19,564 | 4,619 | 2,783 | 94 |
+| CHeader | 19,568 | 4,619 | 2,783 | 94 |
 | Toml | 7,377 | 58 | 884 | 166 |
 
 ## OpenSSF Scorecard
@@ -42,28 +42,28 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.14.0-alpha2` (2026-10-26)
-- **Last commit**: 2026-11-01
+- **Latest**: `v1.10.13` (2026-11-02)
+- **Last commit**: 2026-11-02
 - **Assets in release**: 4
 
 ## Popularity
 
-- **Stars**: 49,230 · **Forks**: 5,953 · **Open issues**: 26,525 · **Contributors**: 1,629
+- **Stars**: 49,233 · **Forks**: 5,953 · **Open issues**: 26,533 · **Contributors**: 1,629
 
 ## Totals (cumulative)
 
-- **Releases**: 210 · **Merged PRs**: 28718 · **Open PRs**: 1107 · **Closed issues**: 23227 · **Open issues**: 3298 · **Commits**: 63841
+- **Releases**: 211 · **Merged PRs**: 28739 · **Open PRs**: 1110 · **Closed issues**: 23229 · **Open issues**: 3304 · **Commits**: 63885
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 4 | 449 | 209 | 77 | 168 | 586 |
-| last60d | 2026-09-02 | 7 | 754 | 267 | 140 | 217 | 1029 |
-| 90d | 2026-08-03 | 11 | 975 | 314 | 180 | 249 | 1403 |
-| last180d | 2026-05-05 | 11 | 1482 | 412 | 280 | 319 | 2383 |
-| 360d | 2025-11-06 | 24 | 2389 | 547 | 541 | 444 | 3579 |
-| last720d | 2024-11-11 | 43 | 4144 | 686 | 1376 | 832 | 4918 |
+| 30d | 2026-10-03 | 5 | 464 | 211 | 78 | 172 | 651 |
+| last60d | 2026-09-03 | 8 | 768 | 269 | 142 | 222 | 1094 |
+| 90d | 2026-08-04 | 12 | 985 | 316 | 180 | 255 | 1468 |
+| last180d | 2026-05-06 | 12 | 1494 | 417 | 278 | 324 | 2448 |
+| 360d | 2025-11-07 | 25 | 2404 | 552 | 539 | 448 | 3644 |
+| last720d | 2024-11-12 | 44 | 4161 | 691 | 1376 | 838 | 4955 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Reported by **191** distros on [repology.org](https://repology.org/project/julia
 | Distro | Version | Status |
 |--------|---------|--------|
 | Arch | `1.13.3` | ✅ latest |
-| Homebrew | `1.13.3` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `1.12.1` | ⚠️ outdated |
 | Nix unstable | `1.13.2` | ⚠️ outdated |
 
@@ -94,4 +94,4 @@ Install metadata for julia lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T03:49:00Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T03:54:38Z._
