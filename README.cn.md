@@ -14,14 +14,14 @@ x install julia
 
 ## 代码洞察
 
-合计: **624,521** 行代码（覆盖前 5 种语言、共 **1390** 个文件）。
+合计: **624,958** 行代码（覆盖前 5 种语言、共 **1390** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Julia | 433,553 | 46,576 | 46,580 | 949 |
-| C | 85,539 | 11,934 | 7,940 | 128 |
-| Cpp | 43,603 | 5,908 | 3,541 | 51 |
-| CHeader | 19,792 | 4,681 | 2,799 | 94 |
+| Julia | 433,991 | 46,594 | 46,611 | 949 |
+| C | 85,522 | 11,934 | 7,940 | 128 |
+| Cpp | 43,611 | 5,908 | 3,541 | 51 |
+| CHeader | 19,790 | 4,693 | 2,800 | 94 |
 | Toml | 7,388 | 60 | 888 | 168 |
 
 ## OpenSSF Scorecard 评分
@@ -42,48 +42,48 @@ x install julia
 
 ## 发布
 
-- **最新版本**: `v1.10.13` (2026-11-02)
-- **最近提交**: 2026-11-13
+- **最新版本**: `v1.13.4` (2026-11-13)
+- **最近提交**: 2026-11-14
 - **Release 含资产**: 4 个
 
 ## 流行度
 
-- **Star**: 49,263 · **Fork**: 5,968 · **开放 issue**: 26,587 · **贡献者**: 1,638
+- **Star**: 49,271 · **Fork**: 5,965 · **开放 issue**: 26,590 · **贡献者**: 1,638
 
 ## 累计统计
 
-- **发布数**: 211 · **已合并 PR**: 29004 · **开放 PR**: 1072 · **已关闭 issue**: 23311 · **开放 issue**: 3276 · **提交数**: 64236
+- **发布数**: 213 · **已合并 PR**: 29015 · **开放 PR**: 1082 · **已关闭 issue**: 23311 · **开放 issue**: 3279 · **提交数**: 64259
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-14 | 5 | 543 | 190 | 107 | 159 | 853 |
-| last60d | 2026-09-14 | 6 | 935 | 251 | 178 | 210 | 1422 |
-| 90d | 2026-08-15 | 10 | 1171 | 300 | 225 | 240 | 1752 |
-| last180d | 2026-05-17 | 12 | 1705 | 407 | 324 | 312 | 2809 |
-| 360d | 2025-11-18 | 25 | 2625 | 532 | 587 | 426 | 4040 |
-| last720d | 2024-11-23 | 44 | 4355 | 664 | 1423 | 809 | 5233 |
+| 30d | 2026-10-15 | 7 | 542 | 200 | 104 | 160 | 877 |
+| last60d | 2026-09-15 | 8 | 932 | 261 | 168 | 211 | 1446 |
+| 90d | 2026-08-16 | 11 | 1159 | 312 | 222 | 243 | 1776 |
+| last180d | 2026-05-18 | 14 | 1710 | 418 | 324 | 313 | 2833 |
+| 360d | 2025-11-19 | 27 | 2630 | 543 | 586 | 429 | 4064 |
+| last720d | 2024-11-24 | 46 | 4354 | 675 | 1420 | 812 | 5256 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [julia-1.13.3-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3-full.tar.gz) | 574.0 MiB | `native/unknown` |
-| [julia-1.13.3-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3-full.tar.gz.asc) | 833 B | `other` |
-| [julia-1.13.3.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3.tar.gz) | 15.2 MiB | `native/unknown` |
-| [julia-1.13.3.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.3/julia-1.13.3.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.4-full.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.4/julia-1.13.4-full.tar.gz) | 574.0 MiB | `native/unknown` |
+| [julia-1.13.4-full.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.4/julia-1.13.4-full.tar.gz.asc) | 833 B | `other` |
+| [julia-1.13.4.tar.gz](https://github.com/JuliaLang/julia/releases/download/v1.13.4/julia-1.13.4.tar.gz) | 15.2 MiB | `native/unknown` |
+| [julia-1.13.4.tar.gz.asc](https://github.com/JuliaLang/julia/releases/download/v1.13.4/julia-1.13.4.tar.gz.asc) | 833 B | `other` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/julia) 上共有 **191** 个发行版报告此项目。**19** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/julia) 上共有 **191** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**99** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Arch | `1.13.3` | ✅ latest |
-| Homebrew | `1.13.3` | ✅ latest |
-| Fedora rawhide | `1.13.3` | ✅ latest |
-| Nix unstable | `1.13.3` | ✅ latest |
+| Arch | `1.13.4` | ✅ latest |
+| Homebrew | `1.13.3` | ⚠️ outdated |
+| Fedora rawhide | `1.13.3` | ⚠️ outdated |
+| Nix unstable | `1.11.9` | 🪦 legacy |
 
 ## 改进这些数据
 
@@ -94,4 +94,4 @@ julia 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261113.yml` · 2026-11-13T04:38:12Z._
+_数据快照: `data/card/261114.yml` · 2026-11-14T04:32:53Z._
